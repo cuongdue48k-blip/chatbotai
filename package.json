@@ -1,0 +1,17 @@
+{
+  "name": "wound-ai-assistant-backend",
+  "version": "1.0.0",
+  "description": "Backend for wound AI assistant using VietAI/gpt-neo-1.3B-vietnamese-news",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@huggingface/inference": "^4.13.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "node-fetch": "^3.3.2"
+  }
+}
